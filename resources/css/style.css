@@ -1,0 +1,449 @@
+
+
+body {
+  font-family: 'MatrixCode', monospace !important;  
+ 
+}
+
+/* Definisci gli stili del sito per i temi di default */
+body {
+  background-color: white;
+  color: black;
+}
+
+/* Definisci gli stili del sito per il tema blu */
+body.blue-theme {
+  background-color: rgb(31, 30, 30);
+  color: rgba(255, 255, 255, 0.486);
+}
+
+/* Definisci gli stili del sito per il tema verde */
+body.green-theme {
+  background-color: rgb(25, 52, 25);
+  color: white;
+}
+
+/* Definisci gli stili del sito per il tema rosso */
+body.red-theme {
+  background-color: rgb(192, 155, 63);
+  color: rgb(9, 9, 9);
+}
+
+/* Definisci gli stili del sito per il tema giallo */
+body.yellow-theme {
+  background-color: rgb(17, 0, 255);
+  color: rgb(249, 248, 248);
+}
+
+
+#blue-theme {
+  background-color: rgb(14, 14, 15);
+  color: rgb(245, 238, 238);
+}
+
+#green-theme {
+  background-color: rgb(26, 53, 31);
+  color: rgb(14, 233, 18);
+}
+
+#red-theme {
+  background-color: rgb(192, 211, 51);
+  color: rgb(0, 0, 0);
+}
+
+#yellow-theme {
+  background-color: rgb(17, 0, 255);
+  color: rgb(249, 248, 248);
+}
+
+.theme-buttons {
+  display: flex;
+  border-radius: 5px;
+  border-color: rgba(255, 17, 17, 0.712);
+  border-style: solid;
+  border-width: 1px; 
+  cursor: pointer;  
+  font-size: 10px;
+
+}
+  
+.navbar {  
+  background-color: rgba(165, 42, 42, 0.639);
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  /* top: 0; */
+  
+
+}
+  
+
+  .navbar-icon {
+    /* float: left; */
+    font-size: 20px;
+    padding: 14px 16px;
+    color: rgb(25, 219, 28);
+    } 
+
+  .navbar-links a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+
+  }
+
+  .navbar-links a:hover {
+    background-color: #ddd;
+  }
+/* queste classi del p servono per evidenziare la prima riga di ogni paragrafo */
+  p {
+    white-space: pre-wrap;
+  }
+  
+  p::after {
+    content: "\A";
+    white-space: pre;
+  }
+  /*
+p::first-line {
+  font-size: 13px;
+  color: rgb(148, 68, 68);
+} */
+
+.container-spiega { 
+  font-size: 10px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+
+.container-spiega p {
+  font-size: 10px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+
+
+
+/*  */
+
+  /* CSS  HOME */
+
+  .img-thumbnail {
+    border-radius: 5px;
+    border-color: rgba(255, 17, 17, 0.712);
+    border-style: solid;
+    /* border-width: 1px; */
+    padding: 30px;
+   
+   
+  }
+
+ /* div {
+  font-size: 10px;
+  display: flex; */
+  /* flex-wrap: wrap; */
+/* }  */
+
+.primo {
+  margin-top: 150px;
+  font-size: 10px;
+}
+
+
+
+.code {
+  color: #00FF00;
+  font-size: 10px;
+  font-family: 'MatrixCode', monospace !important; 
+  background-color: #000000 !important;
+  border-radius: 5px;
+  border-color: rgba(255, 17, 17, 0.712);
+  border-style: solid;  
+  margin-top: 30px;  
+  width: 100%;
+  overflow: auto; 
+  
+}
+
+/* trapezio riga 44 */
+.element {
+  position:absolute;
+  border: 1px solid rgb(253, 10, 10);
+  height: 20px;
+  width: 40px;
+  margin-top: 12px;
+  margin-left: 1px;
+  border-right-style: initial;
+  border-bottom-style: initial;
+}
+.element::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 35px;  
+  border-top: 1px solid rgb(253, 10, 10);
+  border-right: 1px solid rgb(253, 10, 10);
+  width: 25px;
+  transform: rotate(45deg);
+}
+
+.riga44 {
+  font-size: 10px;
+  position: absolute;
+  margin-top: -50px;
+}
+
+.element257 {  
+  /* position:absolute; */
+  border: 3px solid rgb(253, 10, 10);
+  height: 300px;
+  width: 700px;
+  /* margin-top: 150px; */  
+ 
+  }
+
+/* .element257::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 35px;  
+  border-top: 1px solid rgb(253, 10, 10);
+  border-right: 1px solid rgb(253, 10, 10);
+  width: 25px;
+  transform: rotate(45deg);
+}  */
+
+/*  */
+
+pre {
+  background-color: rgb(32, 36, 32);
+  color: rgb(154, 227, 81);
+  border-radius: 5px;
+  border-color: rgba(255, 17, 17, 0.712);
+  border-style: solid;
+  display: flex;
+}
+
+code {
+  color: rgb(154, 227, 81);
+  
+}
+/* seconda lezione parte dai box viola  */
+.padre {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(104, 98, 59);
+  /* se noi mettiamo justify-content: center li allinea al centro, se vogliamo mettere dello spazio fra un elemento e un altro */
+  /* se noi commentiamo inline-block si mettono in colonna */
+  /* display: inline-block; */
+}
+
+.element258 { 
+  width: 200px;
+  height: 200px;
+  background-color: rgb(210, 30, 30);
+  border: 2px solid rgb(0, 0, 0);
+  
+  
+  /* se mettiamo display none nasconde l elemento, viene usato per la visione da cellulare per nascondere elementi */
+  /* display: none; */
+  /* se mettiamo display flex nella classe padre controllando i tre elementi e li metti uno di fianco all altro  */
+}
+
+
+
+ 
+
+/* La proprietà text-wrap non esiste di per sé, ma ci sono diverse proprietà che possono essere utilizzate per gestire il wrapping del testo, come ad esempio word-wrap, word-break e overflow-wrap. Tuttavia, queste proprietà non sono specificamente progettate per mandare a capo le frasi dopo il punto.
+
+
+ 
+
+
+  .card-container {
+   width: 100%;
+   height: 250px;
+   background-color: rgb(157, 111, 111);
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+  }
+
+  .card {
+    width: 200px;
+    height: 140px;
+    background-color: aliceblue;
+  }
+
+  .container-5 {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(78, 177, 67);
+   
+  }
+
+  .box-5 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(141, 36, 36);
+    position: relative;
+    border: 4px solid rgb(0, 0, 0);
+    top: 50px;
+    left: 150px;
+    /*bottom: 50px;
+    right: 50px; 
+  }*/
+
+
+/* container bottoni arancio */
+  .container6 {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(52, 69, 50);
+    border-top-right-radius: 100px;
+   
+  }
+ 
+
+/* INIZIO STYLE PAGINA CSS */
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 80px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 50px;
+}
+
+
+/* animazione luce intemittenza
+h2 {
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #00e6e6, 0 0 80px #00e6e6, 0 0 90px #00e6e6, 0 0 100px #00e6e6, 0 0 150px #00e6e6;
+  animation: glow-animation 1s ease-in-out infinite;
+}
+
+
+@keyframes glow-animation {
+  0% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #00e6e6, 0 0 80px #00e6e6, 0 0 90px #00e6e6, 0 0 100px #00e6e6, 0 0 150px #00e6e6;
+  }
+  50% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #00e6e6, 0 0 80px #00e6e6, 0 0 90px #00e6e6, 0 0 100px #00e6e6, 0 0 150px #00e6e6;
+  }
+} */
+
+/* bottone per fermare l animazione sopra del h2 */
+
+/* il bottone non funziona */
+/* .stop-glow {
+  animation: none !important;
+} */
+
+
+/* animazione underline del h2 con la classe */
+/* .h2-css {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 40px;
+   position: relative; 
+   animation: typing 4s steps(20), blink 0.5s step-end infinite alternate;
+}
+.h2-css::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #000;
+  transform-origin: bottom right;
+  animation: underline 4s linear infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgba(0, 0, 0, 0.8);
+  }
+}
+
+@keyframes underline {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+} */
+
+.matrix-text-container3 h2 {
+  /* position: absolute; */
+  padding-left: 250px;
+  font-family: monospace;
+  font-size: 24px;
+  color: #0f0;
+  /* padding: 10px; */
+  width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid rgb(180, 236, 191);
+  animation: typing 5s steps(30) forwards, blink .5s step-end infinite alternate;
+}
+ 
+ /* .matrix-text-container3 h2::first-letter {
+  opacity: 0.5;
+ 
+}  */
+
+
+.frase1 h2 {
+  animation-delay: 2s;
+  
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(255, 254, 254) }
+}
+
+
+
+h4 {
+  color: rgb(154, 227, 81);
+}
+
+
+
+/* media queries */
+
+
+
+@media screen and (max-width: 667px) {
+  .matrix-text-container3 h2 {
+    padding-left: 0;
+  }
+
+}

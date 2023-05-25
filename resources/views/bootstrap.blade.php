@@ -16,18 +16,19 @@
                 <div class="container">
                     <p>Bootstrap 5.3 è un framework front-end open source ampiamente utilizzato per lo sviluppo web.
                         Offre una vasta gamma di componenti e strumenti che semplificano la creazione di interfacce
-                        moderne, responsive e accattivanti. Ecco alcune delle sue principali funzionalità:</p>
+                        moderne, responsive e accattivanti.
+                        Ecco alcune delle sue principali funzionalità:</p>
                 </div>
-
-                <div class="container">
+                <div class="container-fluid">
                     <ol>
                         <li>Grid system flessibile:</li>
                         <p>Bootstrap offre un sistema di griglia responsivo che consente di creare layout flessibili e
                             reattivi per adattarsi a diversi dispositivi e dimensioni dello schermo.</p>
                         <li>Componenti predefiniti:</li>
-                        <p>Il framework fornisce una vasta raccolta di componenti HTML predefiniti come pulsanti,
-                            modali, navbar, form, carousel e molti altri. Questi componenti possono essere facilmente
-                            personalizzati e utilizzati per costruire rapidamente interfacce web coerenti.</p>
+                        <p>Il framework fornisce una vasta raccolta di componenti HTML predefiniti come pulsanti, modali, navbar, form,
+                            carousel e molti altri.
+                            Questi componenti possono essere facilmente personalizzati e utilizzati per
+                            costruire rapidamente interfacce web coerenti.</p>
                         <li>Responsive utilities:</li>
                         <p>Bootstrap include una serie di classi di utilità CSS che consentono di gestire la
                             responsività degli elementi e adattarli a diversi dispositivi e orientamenti.</p>
@@ -98,7 +99,7 @@
                 <p>Ogni div class="col" rappresenta una colonna all'interno della riga.
                     Le colonne sono impostate senza specificare alcuna classe di larghezza, il che significa che
                     ognuna di esse occuperà una frazione uguale della larghezza disponibile nella riga.
-                    All'interno di ogni colonna, è presente un paragrafo p di esempio.                    
+                    All'interno di ogni colonna, è presente un paragrafo p di esempio.
                     Quando il codice viene eseguito in un ambiente Bootstrap correttamente configurato, le quattro
                     colonne si adatteranno automaticamente alla larghezza dello schermo e verranno visualizzate su una
                     riga.
@@ -108,30 +109,38 @@
                     apparire su più righe, a seconda delle dimensioni e delle classi di larghezza definite.</p>
                 <div class="container">
                     <div class="row">
-                      <div class="col-sm-6 col-md-4">Contenuto 1</div>
-                      <div class="col-sm-6 col-md-4">Contenuto 2</div>
-                      <div class="col-sm-6 col-md-4">Contenuto 3</div>
+                        <div class="col-sm-6 col-md-4">Contenuto 1</div>
+                        <div class="col-sm-6 col-md-4">Contenuto 2</div>
+                        <div class="col-sm-6 col-md-4">Contenuto 3</div>
                     </div>
-                  </div>
-                  <p></p>
-                <p>Nell'esempio sopra, abbiamo una riga div class="row" che contiene tre colonne div class="col-sm-6 col-md-4".
+                </div>
+                <p></p>
+                <p>Nell'esempio sopra, abbiamo una riga div class="row" che contiene tre colonne div
+                    class="col-sm-6 col-md-4".
                     Su schermi di dimensioni più piccole (classe sm), le colonne occupano metà della larghezza
                     disponibile, mentre su schermi di dimensioni medie (classe md), le colonne occupano un terzo della
                     larghezza disponibile.
 
-                    Il Grid system flessibile di Bootstrap offre anche altre funzionalità come offs</p>                 
+                    Il Grid system flessibile di Bootstrap offre anche altre funzionalità come offs</p>
                 <p>Il Grid system di Bootstrap offre anche classi di utilità per gestire la responsività delle colonne.
                     Ad esempio, puoi utilizzare le classi di utilità per nascondere o visualizzare le colonne su
                     determinati dispositivi.</p>
-                <p>Per ulteriori informazioni: <a
-                        href="https://getbootstrap.com/docs/5.1/layout/grid/">Grid system flessibile</a></p>
-                        <hr>
-
-                     
+                <p>Per ulteriori informazioni: <a href="https://getbootstrap.com/docs/5.1/layout/grid/">Grid system
+                        flessibile</a></p>
+                <hr>
 
 
 
-
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            Contenuto della colonna 1
+                        </div>
+                        <div class="col-6">
+                            Contenuto della colonna 2
+                        </div>
+                    </div>
+                </div>
 
 
 
@@ -140,20 +149,20 @@
         </div>
 
 
-       
-       
+
+
         <div class="container-spiega">
             <h4>I componenti UI</h4>
             <p>I componenti predefiniti di Bootstrap offre una vasta raccolta di componenti HTML predefiniti come pulsanti, modali, navbar,
                 form, carousel e molti altri.
-                Questi componenti possono essere facilmente personalizzati e utilizzati per costruire rapidamente interfacce
-                web coerenti.</p>                     
+                Questi componenti possono essere facilmente personalizzati e utilizzati per costruire rapidamente interfacce web coerenti.</p>
             <ol>
-                <p>I componenti UI sono elementi predefiniti forniti da Bootstrap che consentono di creare interfacce utente accattivanti
+                <p>I componenti UI sono elementi predefiniti forniti da Bootstrap che consentono di creare interfacce
+                    utente accattivanti
                     e funzionali senza dover scrivere codice da zero.
                     Ecco una spiegazione di alcuni componenti UI comuni di Bootstrap:</p>
-                    <p>Per ulteriori informazioni: <a
-                        href="https://getbootstrap.com/docs/5.1/components/alerts/">Componenti predefiniti</a></p>
+                <p>Per ulteriori informazioni: <a href="https://getbootstrap.com/docs/5.1/components/alerts/">Componenti
+                        predefiniti</a></p>
                 <li>Bottoni:</li>
                 <p>I bottoni di Bootstrap sono elementi interattivi che consentono agli utenti di eseguire
                     azioni. Offrono diverse varianti di stile, come bottoni di base, bottoni di azione, bottoni
@@ -247,41 +256,51 @@
                     creare tooltip e popover personalizzati.</p>
                 <li>Collapse:</li>
                 <p>Il componente di collapsible di Bootstrap consente di nascondere o mostrare il contenuto con un
-                    effetto di espansione o riduzione. Puoi utilizzare questa funzionalità per creare accordioni, barre
+                    effetto di espansione
+                    o riduzione.
+                    Puoi utilizzare questa funzionalità per creare accordioni, barre
                     laterali o pannelli di informazioni che possono essere espansi o ridotti.</p>
                 <li>Cards:</li>
                 <p>Le cards sono componenti versatili che consentono di organizzare il contenuto in blocchi
-                    indipendenti. Puoi utilizzare le cards per visualizzare informazioni, immagini, pulsanti o qualsiasi
-                    altro contenuto. Le cards di Bootstrap offrono vari stili e layout che possono essere
-                    personalizzati.</p>
+                    indipendenti.
+                    Puoi utilizzare le cards per visualizzare informazioni, immagini, pulsanti o qualsiasi altro
+                    contenuto.
+                    Le cards di Bootstrap offrono vari stili e layout che possono essere personalizzati.</p>
                 <li>Accordion:</li>
                 <p>L'accordion è un componente che consente di organizzare il contenuto in pannelli che possono essere
-                    aperti o chiusi. Questo è utile per visualizzare informazioni dettagliate in modo compatto e
-                    consentire agli utenti di espandere solo i pannelli di interesse.</p>
+                    aperti o chiusi.
+                    Questo è utile per visualizzare informazioni dettagliate in modo compatto e consentire agli utenti
+                    di espandere solo i pannelli di interesse.</p>
                 <li>Tabs:</li>
                 <p>I tabs consentono di organizzare il contenuto in schede, consentendo agli utenti di passare da una
-                    scheda all'altra per accedere a diverse sezioni del contenuto. Bootstrap offre un componente tab che
-                    può essere utilizzato per creare interfacce a schede interattive.</p>
+                    scheda
+                    all'altra per accedere a diverse sezioni del contenuto.
+                    Bootstrap offre un componente tab che può essere utilizzato per creare interfacce a schede
+                    interattive.</p>
                 <li>Datepicker:</li>
                 <p>Il componente datepicker di Bootstrap offre un modo semplice per selezionare date da un calendario
-                    interattivo. Puoi personalizzare il formato della data, l'intervallo selezionabile e le opzioni di
+                    interattivo.
+                    Puoi personalizzare il formato della data, l'intervallo selezionabile e le opzioni di
                     visualizzazione per adattarsi alle tue esigenze.</p>
                 <li>Typeahead:</li>
                 <p> Il typeahead consente agli utenti di inserire rapidamente i dati suggeriti mentre digitano in un
-                    campo di input. Bootstrap fornisce un componente typeahead che supporta l'autocompletamento basato
-                    su dati predefiniti o suggerimenti dinamici da una fonte remota.</p>
+                    campo di input.
+                    Bootstrap fornisce un componente typeahead che supporta l'autocompletamento basato su dati
+                    predefiniti o suggerimenti dinamici da una fonte remota.</p>
                 <li>Scrollspy:</li>
                 <p>Il Scrollspy di Bootstrap è un componente che consente di evidenziare automaticamente gli elementi di
                     navigazione mentre l'utente scorre la pagina. Puoi utilizzarlo per creare una navigazione a
                     scorrimento che fornisce feedback visivo sulla posizione dell'utente nella pagina.</p>
                 <li>Pagination:</li>
                 <p>Il componente Pagination di Bootstrap consente di creare una navigazione tra pagine di contenuti.
-                    Puoi generare facilmente una serie di pulsanti di paginazione che consentono agli utenti di passare
-                    da una pagina all'altra.</p>
+                    Puoi generare facilmente una serie di pulsanti di paginazione che consentono agli utenti di
+                    passare da una pagina all'altra.</p>
                 <li>Tooltip:</li>
                 <p>Il Tooltip di Bootstrap è un componente che mostra brevi descrizioni o suggerimenti quando l'utente
-                    posiziona il cursore sopra un elemento. Puoi utilizzare i tooltip per fornire informazioni
-                    aggiuntive senza occupare molto spazio nell'interfaccia.</p>
+                    posiziona
+                    il cursore sopra un elemento.
+                    Puoi utilizzare i tooltip per fornire informazioni aggiuntive senza occupare molto spazio
+                    nell'interfaccia.</p>
 
 
             </ol>

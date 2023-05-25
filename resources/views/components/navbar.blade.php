@@ -18,7 +18,7 @@
                     <a href="{{ route('html5') }}">Html5</a>
                     <a href="{{ route('css3') }}">CSS3</a>
                     <a href="{{ route('bootstrap') }}">Bootstrap</a>
-                    <a href="#">Link 5</a>
+                    <a href="{{ route('coding') }}">Live coding</a>
                 </div>
             </div>
         </div>

@@ -99,32 +99,38 @@ body.yellow-theme {
     background-color: #ddd;
   }
 /* queste classi del p servono per evidenziare la prima riga di ogni paragrafo */
-  p {
+  /* p {
     white-space: pre-wrap;
   }
   
   p::after {
     content: "\A";
     white-space: pre;
-  }
-  /*
-p::first-line {
+  }   */
+  
+/* p::first-line {
   font-size: 13px;
   color: rgb(148, 68, 68);
 } */
 
-.container-spiega { 
+
+
+
+.container-html { 
   font-size: 10px;
   /* display: flex; */
   /* flex-wrap: wrap; */
+  background-color: cadetblue;
 }
 
-.container-spiega p {
+
+
+.container-spiega {
   font-size: 10px;
   /* display: flex; */
   /* flex-wrap: wrap; */
+  background-color:rgb(44, 83, 116)
 }
-
 
 
 /*  */
@@ -314,9 +320,9 @@ code {
 h1 {
   color: rgb(255, 255, 255);
   text-align: center;
-  font-size: 80px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin-top: 50px;
+  font-size: 80px; 
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+   margin-top: 50px;
 }
 
 
@@ -435,7 +441,20 @@ h4 {
   color: rgb(154, 227, 81);
 }
 
+/* parte css di coding */
 
+/* root per la pagina coding di paola (variabili) */
+:root {
+  --main-blue: rgb(65, 142, 243);
+  --secondary-blue: rgb(0, 0, 255);
+  --main-green: rgb(208, 239, 176);
+
+}
+
+h1 {
+  color: var(--main-blue);
+ 
+}
 
 /* media queries */
 

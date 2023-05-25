@@ -18,3 +18,5 @@ use App\Http\Controllers\PublicController;
  Route::get('/html5', [PublicController::class, 'html5'])->name('html5');
  Route::get('/css3', [PublicController::class, 'css3'])->name('css3');
  Route::get('/bootstrap', [PublicController::class, 'bootstrap'])->name('bootstrap');
+ Route::get('/coding', [PublicController::class, 'coding'])->name('coding');
+ 

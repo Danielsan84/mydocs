@@ -24,59 +24,91 @@
             <h2 data-target="#selettori">Selettori</h2> --}}
         </div>
 
-        <div class="container-fluid">
+        {{-- <div class="container-fluid">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12"> --}}
                     <div class="container-spiega">
-                        <ol>                           
-        <li><p>* Nel contesto di CSS, questo simbolo rappresenta un selettore universale.
-                Viene utilizzato per selezionare tutti gli elementi presenti in una pagina HTML.
-                Quindi, se si applica uno stile utilizzando il selettore *, verranno interessati tutti gli
-                elementi HTML presenti nel documento.</p>
-        </li>
-        <li><p>Il selettore per tag in CSS è uno dei selettori più semplici e comuni.
-               Consente di selezionare tutti gli elementi che corrispondono a un determinato tipo di tag HTML.
-               Per utilizzare il selettore per tag, devi semplicemente specificare il nome del tag come
-               selettore.
-               Ad esempio, se vuoi selezionare tutti gli elementi di h4 nel tuo documento HTML, utilizzerai il
-               selettore per tag h4.</p></li>
-        <li><p>Il selettore per classe in CSS ti consente di selezionare elementi HTML in base al valore dell'attributo class.
-               Le classi sono utilizzate per identificare e raggruppare elementi simili all'interno di un
-               documento HTML.
-               Per utilizzare il selettore per classe, devi specificare il nome della classe preceduto da un
-               punto (".") come selettore.
-               Ad esempio, se hai un elemento div con la classe "code", utilizzerai il selettore ".code" per
-               selezionarlo.</p>
-        </li> 
-        <li><p>Il selettore per ID in CSS ti consente di selezionare un elemento HTML in base al valore dell'attributo id.
-               Gli ID sono identificatori unici assegnati a elementi specifici all'interno di un documento HTML.
-               Per utilizzare il selettore per ID, devi specificare l'ID dell'elemento preceduto da un
-               cancelletto ("#") come selettore.
-               Ad esempio, se hai un elemento div con l'ID "ido", utilizzerai il selettore "#ido" per
-               selezionarlo.
-               In questo caso, il selettore #ido selezionerà l'elemento con l'ID "ido" e applicherà uno stile
-               che imposta il colore del testo su rosso.
-               Gli ID sono univoci all'interno di un documento HTML, il che significa che ogni ID deve essere
-               assegnato a un solo elemento.
-               Pertanto, il selettore per ID selezionerà sempre al massimo un elemento nel tuo documento.
-               A differenza delle classi, che possono essere applicate a più elementi, gli ID sono progettati
-               per essere utilizzati per identificare un elemento specifico e devono essere unici all'interno
-               del documento.</p>
-            </li> 
-        <li><p>Selettore discendente seleziona gli elementi figli di un altro elemento.
-               Ad esempio, div p seleziona tutti gli elementi p che sono discendenti diretti di un elemento div.</p></li>
-        <li><p>Selettore di attributo: Seleziona gli elementi che hanno un determinato attributo.
-               Ad esempio, input[type="text"] seleziona tutti gli elementi input con l'attributo type uguale a
-               "text".</p>
-            </li>
-        <li><p>Selettore di combinazione combina più selettori per identificare elementi specifici.
-               Ad esempio, div .classe seleziona gli elementi con class="classe" che sono discendenti diretti di
-               un elemento div.</p>
-            </li>
-        <li><p>Selettore di pseudo-classe seleziona elementi in base a uno stato o a un'interazione specifica.
-               Ad esempio, a:hover seleziona i link quando vengono "hoverati" con il mouse.</p></li>
-                             
-                            
+                        <ol>
+                            <li>
+                                <p>* Nel contesto di CSS, questo simbolo rappresenta un selettore universale.
+                                    Viene utilizzato per selezionare tutti gli elementi presenti in una pagina HTML.
+                                    Quindi, se si applica uno stile utilizzando il selettore *, verranno interessati
+                                    tutti gli
+                                    elementi HTML presenti nel documento.</p>
+                            </li>
+                            <li>
+                                <p>Il selettore per tag in CSS è uno dei selettori più semplici e comuni.
+                                    Consente di selezionare tutti gli elementi che corrispondono a un determinato tipo
+                                    di tag HTML.
+                                    Per utilizzare il selettore per tag, devi semplicemente specificare il nome del tag
+                                    come
+                                    selettore.
+                                    Ad esempio, se vuoi selezionare tutti gli elementi di h4 nel tuo documento HTML,
+                                    utilizzerai il
+                                    selettore per tag h4.</p>
+                            </li>
+                            <li>
+                                <p>Il selettore per classe in CSS ti consente di selezionare elementi HTML in base al
+                                    valore dell'attributo class.
+                                    Le classi sono utilizzate per identificare e raggruppare elementi simili all'interno
+                                    di un
+                                    documento HTML.
+                                    Per utilizzare il selettore per classe, devi specificare il nome della classe
+                                    preceduto da un
+                                    punto (".") come selettore.
+                                    Ad esempio, se hai un elemento div con la classe "code", utilizzerai il selettore
+                                    ".code" per
+                                    selezionarlo.</p>
+                            </li>
+                            <li>
+                                <p>Il selettore per ID in CSS ti consente di selezionare un elemento HTML in base al
+                                    valore dell'attributo id.
+                                    Gli ID sono identificatori unici assegnati a elementi specifici all'interno di un
+                                    documento HTML.
+                                    Per utilizzare il selettore per ID, devi specificare l'ID dell'elemento preceduto da
+                                    un
+                                    cancelletto ("#") come selettore.
+                                    Ad esempio, se hai un elemento div con l'ID "ido", utilizzerai il selettore "#ido"
+                                    per
+                                    selezionarlo.
+                                    In questo caso, il selettore #ido selezionerà l'elemento con l'ID "ido" e applicherà
+                                    uno stile
+                                    che imposta il colore del testo su rosso.
+                                    Gli ID sono univoci all'interno di un documento HTML, il che significa che ogni ID
+                                    deve essere
+                                    assegnato a un solo elemento.
+                                    Pertanto, il selettore per ID selezionerà sempre al massimo un elemento nel tuo
+                                    documento.
+                                    A differenza delle classi, che possono essere applicate a più elementi, gli ID sono
+                                    progettati
+                                    per essere utilizzati per identificare un elemento specifico e devono essere unici
+                                    all'interno
+                                    del documento.</p>
+                            </li>
+                            <li>
+                                <p>Selettore discendente seleziona gli elementi figli di un altro elemento.
+                                    Ad esempio, div p seleziona tutti gli elementi p che sono discendenti diretti di un
+                                    elemento div.</p>
+                            </li>
+                            <li>
+                                <p>Selettore di attributo: Seleziona gli elementi che hanno un determinato attributo.
+                                    Ad esempio, input[type="text"] seleziona tutti gli elementi input con l'attributo
+                                    type uguale a
+                                    "text".</p>
+                            </li>
+                            <li>
+                                <p>Selettore di combinazione combina più selettori per identificare elementi specifici.
+                                    Ad esempio, div .classe seleziona gli elementi con class="classe" che sono
+                                    discendenti diretti di
+                                    un elemento div.</p>
+                            </li>
+                            <li>
+                                <p>Selettore di pseudo-classe seleziona elementi in base a uno stato o a un'interazione
+                                    specifica.
+                                    Ad esempio, a:hover seleziona i link quando vengono "hoverati" con il mouse.</p>
+                            </li>
+
+
 
 
 
@@ -137,8 +169,8 @@
 
 
 
-       
-        <p> 
+
+        <p>
         </p>
 
 

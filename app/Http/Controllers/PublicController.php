@@ -26,6 +26,13 @@ class PublicController extends Controller
     {
         return view('bootstrap');
     }
+
+    public function coding()
+    {
+        return view('coding');
+    }
+
+    
 }
 
     
